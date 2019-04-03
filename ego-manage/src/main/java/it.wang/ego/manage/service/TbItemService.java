@@ -25,7 +25,7 @@ public interface TbItemService {
 	 * @param desc
 	 * @return
 	 */
-	int save(TbItem item , String desc) throws Exception;
+	int save(TbItem item , String desc,String itemParams) throws Exception;
 
 
 }

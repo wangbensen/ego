@@ -1,6 +1,7 @@
 package it.wang.ego.dubbo.service;
 
 import it.ego.commons.pojo.EasyUIDataGrid;
+import it.wang.ego.pojo.TbItemParam;
 
 public interface TbItemParamDubboService {
 
@@ -18,4 +19,18 @@ public interface TbItemParamDubboService {
      * @return
      */
     int delByIds(String ids)throws Exception ;
+
+    /**
+     * 根据itemCatId 查询是不是有当前端额规格参数
+     * @param itemCatId
+     * @return
+     */
+    TbItemParam selByCatid(Long itemCatId);
+    /**
+     * 新增,支持主键自增
+     * @param param
+     * @return
+     */
+    int insParam(TbItemParam param);
+
 }

@@ -2,9 +2,7 @@ package it.wang.ego.dubbo.service;
 
 
 import it.ego.commons.pojo.EasyUIDataGrid;
-import it.wang.ego.pojo.TbItem;
-import it.wang.ego.pojo.TbItemCat;
-import it.wang.ego.pojo.TbItemDesc;
+import it.wang.ego.pojo.*;
 
 import java.util.List;
 
@@ -24,12 +22,12 @@ public interface TbItemDubboService {
 	 */
 	int updItemStatus(TbItem tbItem);
 	/**
-	 * 新增包含商品表和商品描述表
+	 * 新增包含商品表和商品描述表和商品规格
 	 * @param tbItem
 	 * @param desc
 	 * @return
 	 */
-	int insTbItemDesc(TbItem tbItem, TbItemDesc desc)
+	int insTbItemDesc(TbItem tbItem, TbItemDesc desc, TbItemParamItem tbItemParamItem)
 			throws Exception;
 
 

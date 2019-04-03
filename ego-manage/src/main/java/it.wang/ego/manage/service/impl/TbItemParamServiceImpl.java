@@ -11,6 +11,7 @@ import it.wang.ego.pojo.TbItemParam;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -57,5 +58,18 @@ public class TbItemParamServiceImpl implements TbItemParamService {
     @Override
     public int delete(String ids) throws Exception {
         return tbItemParamDubboService.delByIds(ids);
+    }
+
+    @Override
+    public TbItemParam showParam(long catId) {
+        return  tbItemParamDubboService.selByCatid(catId);
+    }
+
+    @Override
+    public int save(TbItemParam param) {
+        Date date = new Date();
+        param.setUpdated(date);
+        param.setCreated(date);
+        return  tbItemParamDubboService.insParam(param);
     }
 }

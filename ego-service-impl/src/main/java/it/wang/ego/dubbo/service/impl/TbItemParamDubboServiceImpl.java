@@ -39,16 +39,33 @@ public class TbItemParamDubboServiceImpl implements TbItemParamDubboService {
 
     @Override
     public int delByIds(String ids) throws Exception {
-        int index=0;
+        int index = 0;
         String[] ids2 = ids.split(",");
-        for (int i = 0; i<ids2.length;i++){
-            index+= tbItemParamMapper.deleteByPrimaryKey(Long.parseLong(ids2[i]));
+        for (int i = 0; i < ids2.length; i++) {
+            index += tbItemParamMapper.deleteByPrimaryKey(Long.parseLong(ids2[i]));
         }
-        if (index==ids2.length){
+        if (index == ids2.length) {
             return 1;
-        }else {
+        } else {
             throw new Exception("批量删除异常，数据可能已经不存在了");
 
         }
+    }
+
+    @Override
+    public TbItemParam selByCatid(Long itemCatId) {
+
+        TbItemParamExample example = new TbItemParamExample();
+        example.createCriteria().andItemCatIdEqualTo(itemCatId);
+        List<TbItemParam> list = tbItemParamMapper.selectByExampleWithBLOBs(example);
+        if (list != null && list.size() > 0) {
+            return list.get(0);
+        }
+        return null;
+    }
+
+    @Override
+    public int insParam(TbItemParam param) {
+        return tbItemParamMapper.insertSelective(param);
     }
 }

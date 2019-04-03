@@ -7,6 +7,8 @@ import it.wang.ego.dubbo.service.TbItemDubboService;
 import it.wang.ego.pojo.TbItem;
 import it.wang.ego.manage.service.TbItemService;
 import it.wang.ego.pojo.TbItemDesc;
+import it.wang.ego.pojo.TbItemParam;
+import it.wang.ego.pojo.TbItemParamItem;
 import org.springframework.stereotype.Service;
 
 import com.alibaba.dubbo.config.annotation.Reference;
@@ -39,7 +41,7 @@ public class TbItemServiceImpl implements TbItemService {
 		return 0;
 	}
 	@Override
-	public int save(TbItem item, String desc) throws
+	public int save(TbItem item, String desc,String itemParams) throws
 			Exception {
 		long id = IDUtils.genItemId();
 		item.setId(id);
@@ -52,9 +54,14 @@ public class TbItemServiceImpl implements TbItemService {
 		itemDesc.setItemId(id);
 		itemDesc.setCreated(date);
 		itemDesc.setUpdated(date);
+		TbItemParamItem tbItemParamItem=new TbItemParamItem();
+		tbItemParamItem.setCreated(date);
+		tbItemParamItem.setUpdated(date);
+		tbItemParamItem.setParamData(itemParams);
+		tbItemParamItem.setItemId(id);
 		int index = 0;
 		index =
-				tbItemDubboServiceImpl.insTbItemDesc(item, itemDesc);
+				tbItemDubboServiceImpl.insTbItemDesc(item, itemDesc,tbItemParamItem);
 		System.out.println("index:" + index);
 		return index;
 	}

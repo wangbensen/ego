@@ -1,6 +1,7 @@
 package it.wang.ego.manage.service;
 
 import it.ego.commons.pojo.EasyUIDataGrid;
+import it.wang.ego.pojo.TbItemParam;
 
 public interface TbItemParamService {
     /**
@@ -19,4 +20,18 @@ public interface TbItemParamService {
      * @throws Exception
      */
     int delete(String ids) throws Exception;
+
+    /**
+     * 根据catId  查询具体的模板信息
+     * @param catId
+     * @return
+     */
+    TbItemParam showParam(long catId);
+
+    /**
+     * 新增模板信息
+     * @param param
+     * @return
+     */
+    int  save(TbItemParam param);
 }

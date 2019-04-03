@@ -47,7 +47,11 @@
 						 $("#itemParamAddTable .selectItemCat").click();
 					  });
 					  return ;
-				  }
+				  }else if(data.status == 500){
+						$.messager.alert("提示", "添加类目失败", undefined, function(){
+						$("#itemParamAddTable .selectItemCat").click();
+						});
+						}
 				  $(".addGroupTr").show();
 			  });
 			}
@@ -99,6 +103,11 @@
 						$(".panel-tool-close").click();
     					$("#itemParamList").datagrid("reload");
     				});
+				}else{
+						$.messager.alert('提示','新增商品规格失败!',undefined,function(){
+						$(".panel-tool-close").click();
+						$("#itemParamList").datagrid("reload");
+						});
 				}
 			});
 		});

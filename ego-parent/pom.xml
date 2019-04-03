@@ -14,6 +14,8 @@
     <module>../ego-pojo</module>
     <module>../ego-service</module>
     <module>../ego-service-impl</module>
+    <module>../ego-portal</module>
+    <module>../ego-item</module>
   </modules>
 
   <name>ego-parent</name>
