@@ -28,51 +28,95 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TbItemDubboService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbItemDubboService.java">
+      <file leaf-file-name="TbItemDubboServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbItemDubboServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="-184">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbItemCatDubboService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbItemCatDubboService.java">
+      <file leaf-file-name="TbItemDescDubboServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbItemDescDubboServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="138">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ego-portal/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <file leaf-file-name="TbItemCatDubboServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbItemCatDubboServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="187">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbContentDubboServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbContentDubboServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbContentServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/impl/TbContentServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-spring.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/resources/applicationContext-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-284">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbItemCatService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/service/TbItemCatService.java">
+      <file leaf-file-name="applicationContext-dubbo.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/resources/applicationContext-dubbo.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="234">
+              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbItemCatServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/service/impl/TbItemCatServiceImpl.java">
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/resources/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="23" />
+            <state relative-caret-position="-72">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbContentCategoryDubboService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbContentCategoryDubboService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,57 +124,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/test/Test.java">
+      <file leaf-file-name="TbContentDubboService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbContentDubboService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PortalMenuNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/pojo/PortalMenuNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbItemCatController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/controller/TbItemCatController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="414">
+              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PortalMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/pojo/PortalMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbItemCat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ego-pojo/src/main/java/it/wang/ego/pojo/TbItemCat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -169,6 +170,12 @@
       <find>/item/param/query/itemcatid</find>
       <find>item/param/query/itemcatid</find>
       <find>item/param/save</find>
+      <find>content/category/list</find>
+      <find>content/category/create</find>
+      <find>content/category/update</find>
+      <find>insTbContentcategory</find>
+      <find>content/category/delete</find>
+      <find>content/save</find>
     </findStrings>
     <replaceStrings>
       <replace>it.wang.com</replace>
@@ -191,16 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/mapper/TbItemCatMapper.xml" />
-        <option value="$PROJECT_DIR$/../ego-pojo/src/main/java/it/wang/ego/pojo/TbContent.java" />
-        <option value="$PROJECT_DIR$/../ego-service-impl/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/../ego-manage/src/main/resources/applicationContext-dubbo.xml" />
-        <option value="$PROJECT_DIR$/../ego-commons/src/main/java/it/ego/commons/pojo/EasyUiTree.java" />
-        <option value="$PROJECT_DIR$/../ego-service-impl/pom.xml" />
-        <option value="$PROJECT_DIR$/../ego-commons/src/main/java/it/ego/commons/utils/EgoResult.java" />
-        <option value="$PROJECT_DIR$/../ego-commons/pom.xml" />
-        <option value="$PROJECT_DIR$/../ego-commons/src/main/resources/commons.properties" />
         <option value="$PROJECT_DIR$/../ego-manage/src/main/resources/applicationContext-spring.xml" />
         <option value="$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/TbItemCatController.java" />
         <option value="$PROJECT_DIR$/../ego-commons/src/main/java/it/ego/commons/pojo/EgoResult.java" />
@@ -213,14 +210,12 @@
         <option value="$PROJECT_DIR$/../ego-manage/src/main/webapp/WEB-INF/jsp/item-add.jsp" />
         <option value="$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbItemDescDubboService.java" />
         <option value="$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbItemDescDubboServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../ego-service-impl/src/main/resources/META-INF/spring/applicationContext-dubbo.xml" />
         <option value="$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/pojo/TbItemParamChild.java" />
         <option value="$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/TbItemCatService.java" />
         <option value="$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbItemCatDubboService.java" />
         <option value="$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbItemCatDubboServiceImpl.java" />
         <option value="$PROJECT_DIR$/../ego-manage/src/main/webapp/WEB-INF/jsp/item-param-list.jsp" />
         <option value="$PROJECT_DIR$/../ego-service-impl/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbItemParamDubboService.java" />
         <option value="$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/TbItemParamService.java" />
         <option value="$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/impl/TbItemParamServiceImpl.java" />
         <option value="$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/TbItemParamController.java" />
@@ -242,6 +237,18 @@
         <option value="$PROJECT_DIR$/../ego-portal/src/main/resources/applicationContext-dubbo.xml" />
         <option value="$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/controller/TbItemCatController.java" />
         <option value="$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/service/impl/TbItemCatServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbItemParamDubboService.java" />
+        <option value="$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/TbContentCategoryService.java" />
+        <option value="$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/impl/TbContentCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/TbContentCategoryController.java" />
+        <option value="$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbContentCategoryDubboService.java" />
+        <option value="$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbContentCategoryDubboServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../ego-service-impl/src/main/resources/META-INF/spring/applicationContext-dubbo.xml" />
+        <option value="$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/TbContentService.java" />
+        <option value="$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/TbContentController.java" />
+        <option value="$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbContentDubboService.java" />
+        <option value="$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbContentDubboServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/impl/TbContentServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -275,7 +282,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="ego-item Maven Webapp" />
+          <option name="myItemId" value="ego-parent" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -285,7 +292,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="ego-item Maven Webapp" />
+          <option name="myItemId" value="ego-parent" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -316,6 +323,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -324,7 +332,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ego-service-impl" />
+              <option name="myItemId" value="ego-manage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,7 +342,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ego-service-impl" />
+              <option name="myItemId" value="ego-manage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -352,7 +360,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ego-service-impl" />
+              <option name="myItemId" value="ego-manage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -364,15 +372,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ego" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -382,7 +382,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ego-service-impl" />
+              <option name="myItemId" value="ego-manage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -398,15 +398,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ego" />
+              <option name="myItemId" value="manage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1142,19 +1141,19 @@
       <workItem from="1554078574548" duration="2011000" />
       <workItem from="1554081377119" duration="21547000" />
       <workItem from="1554164709244" duration="22679000" />
+      <workItem from="1554252781027" duration="16792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48190000" />
+    <option name="totallyTimeSpent" value="64982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44105265" sideWeight="0.11727079" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35473683" sideWeight="0.4936034" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06631579" sideWeight="0.12100213" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1369936" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1164,7 +1163,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6263158" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37894738" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3031579" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1172,10 +1171,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34105262" sideWeight="0.88272923" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44210526" sideWeight="0.87899786" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21588486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21801706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1185,6 +1184,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35473683" sideWeight="0.4936034" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1222,11 +1222,29 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/impl/TbContentCategoryServiceImpl.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/impl/TbContentCategoryServiceImpl.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/TbContentController.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="6" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1235,305 +1253,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/TbItemCatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbItemCatDubboServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/resources/applicationContext-dubbo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/impl/PicServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/resources/META-INF/spring/applicationContext-dubbo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="28" column="79" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.6.RELEASE/spring-web-4.1.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/TbItemCatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/webapp/WEB-INF/jsp/item-param-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="71" column="71" lean-forward="false" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-pojo/src/main/java/it/wang/ego/pojo/TbItemParamExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-451">
-          <caret line="48" column="50" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="38" column="59" lean-forward="false" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/TbItemParamService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/webapp/WEB-INF/jsp/item-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="109" column="30" lean-forward="false" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/webapp/WEB-INF/jsp/item-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="68" column="20" lean-forward="true" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/impl/TbItemParamServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="64" column="45" lean-forward="false" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1317#1335#0" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2315#2316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-pojo/src/main/java/it/wang/ego/pojo/TbItemParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbItemParamDubboServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="59" column="76" lean-forward="false" selection-start-line="59" selection-start-column="76" selection-end-line="59" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#2309#2310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbItemParamDubboService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbItemDescDubboService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbItemDubboServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/TbItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/impl/TbItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="43" column="62" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/TbItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="87" column="48" lean-forward="false" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/webapp/WEB-INF/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="194" column="20" lean-forward="false" selection-start-line="194" selection-start-column="20" selection-end-line="194" selection-end-column="20" />
-          <folding>
-            <marker date="1504581087587" expanded="true" signature="1421:1431" ph="..." />
-            <marker date="1504581087587" expanded="true" signature="1502:1512" ph="..." />
-            <marker date="1504581087587" expanded="true" signature="1923:1963" ph="..." />
-            <marker date="1504581087587" expanded="true" signature="3262:3279" ph="..." />
-            <marker date="1504581087587" expanded="true" signature="3349:3366" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/TbItemParamController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/webapp/WEB-INF/jsp/item-param-add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2599">
-          <caret line="113" column="7" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="113" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/mapper/TbContentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding>
-            <marker date="1554080544319" expanded="true" signature="4647:4799" ph="select , fro... " />
-            <marker date="1554080544319" expanded="true" signature="4883:4942" ph="delete from " />
-            <marker date="1554080544319" expanded="true" signature="5042:5064" ph="delete from " />
-            <marker date="1554080544319" expanded="true" signature="5241:5721" ph="insert into tb_content... " />
-            <marker date="1554080544319" expanded="true" signature="7694:7725" ph="select count... tb_content" />
-            <marker date="1554080544319" expanded="true" signature="9279:9854" ph="update tb_co... " />
-            <marker date="1554080544319" expanded="true" signature="10027:10546" ph="update tb_co... " />
-            <marker date="1554080544319" expanded="true" signature="10754:11759" ph="update tb_co... " />
-            <marker date="1554080544319" expanded="true" signature="11864:12365" ph="update tb_co... " />
-            <marker date="1554080544319" expanded="true" signature="12461:12913" ph="update tb_co... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ego-item/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ego-parent.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-portal/src/main/java/com/ego/portal/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-portal/ego-portal.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../uuu/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1573,7 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1621,14 +1343,148 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="0" column="1790" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="24462" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbItemCatDubboService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
+        <state relative-caret-position="552">
           <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-pojo/src/main/java/it/wang/ego/pojo/TbItemCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#433#434#0" expanded="false" />
+            <element signature="e#461#462#0" expanded="false" />
+            <element signature="e#494#495#0" expanded="false" />
+            <element signature="e#525#526#0" expanded="false" />
+            <element signature="e#571#572#0" expanded="false" />
+            <element signature="e#611#612#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#669#670#0" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#770#771#0" expanded="false" />
+            <element signature="e#804#805#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#878#879#0" expanded="false" />
+            <element signature="e#914#915#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="e#983#984#0" expanded="false" />
+            <element signature="e#1034#1035#0" expanded="false" />
+            <element signature="e#1076#1077#0" expanded="false" />
+            <element signature="e#1112#1113#0" expanded="false" />
+            <element signature="e#1143#1144#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="false" />
+            <element signature="e#1232#1233#0" expanded="false" />
+            <element signature="e#1264#1265#0" expanded="false" />
+            <element signature="e#1294#1295#0" expanded="false" />
+            <element signature="e#1338#1339#0" expanded="false" />
+            <element signature="e#1376#1377#0" expanded="false" />
+            <element signature="e#1408#1409#0" expanded="false" />
+            <element signature="e#1438#1439#0" expanded="false" />
+            <element signature="e#1482#1483#0" expanded="false" />
+            <element signature="e#1520#1521#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/controller/TbItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/pojo/PortalMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#209#210#0" expanded="false" />
+            <element signature="e#252#253#0" expanded="false" />
+            <element signature="e#275#276#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/pojo/PortalMenuNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#213#214#0" expanded="false" />
+            <element signature="e#228#229#0" expanded="false" />
+            <element signature="e#258#259#0" expanded="false" />
+            <element signature="e#275#276#0" expanded="false" />
+            <element signature="e#299#300#0" expanded="false" />
+            <element signature="e#314#315#0" expanded="false" />
+            <element signature="e#344#345#0" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+            <element signature="e#391#392#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/service/impl/TbItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#129#130#0" expanded="false" />
+            <element signature="e#151#152#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/webapp/WEB-INF/jsp/content.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1956">
+          <caret line="4" column="81" lean-forward="false" selection-start-line="4" selection-start-column="81" selection-end-line="4" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-commons/src/main/java/it/ego/commons/pojo/EgoResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/impl/TbItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -1641,57 +1497,245 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-pojo/src/main/java/it/wang/ego/pojo/TbItemCat.java">
+    <entry file="file://$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbItemDescDubboService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/controller/TbItemCatController.java">
+    <entry file="file://$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbItemParamDubboService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="407">
+          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/pojo/PortalMenu.java">
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/webapp/WEB-INF/jsp/content-category.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="223">
+          <caret line="80" column="25" lean-forward="false" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/pojo/PortalMenuNode.java">
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/impl/TbContentCategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-item/src/main/java/com/ego/item/service/impl/TbItemCatServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="23" />
+        <state relative-caret-position="387">
+          <caret line="103" column="37" lean-forward="true" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#982#994#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/test/Test.java">
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/TbContentCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/mapper/TbContentCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/TbContentCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/resources/META-INF/spring/applicationContext-dubbo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="35" column="77" lean-forward="false" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/webapp/WEB-INF/jsp/content-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="68" column="25" lean-forward="false" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbContentCategoryDubboServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/TbItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/PicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="41" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/TbContentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/controller/TbContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="46" column="47" lean-forward="false" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbItemDubboServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbItemDescDubboServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbItemCatDubboServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbContentCategoryDubboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-service/src/main/java/it/wang/ego/dubbo/service/TbContentDubboService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-service-impl/src/main/java/it/wang/ego/dubbo/service/impl/TbContentDubboServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="39" column="25" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/java/it.wang/ego/manage/service/impl/TbContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/resources/applicationContext-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-284">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ego-manage/src/main/resources/applicationContext-dubbo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding />
         </state>
       </provider>

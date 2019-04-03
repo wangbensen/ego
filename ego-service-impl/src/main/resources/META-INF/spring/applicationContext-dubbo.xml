@@ -28,6 +28,14 @@
 	<!--&lt;!&ndash; 规格参数 &ndash;&gt;-->
 	<dubbo:service interface="it.wang.ego.dubbo.service.TbItemParamDubboService" ref="tbItemParamDubboServiceImpl"></dubbo:service>
 	<bean id="tbItemParamDubboServiceImpl" class="it.wang.ego.dubbo.service.impl.TbItemParamDubboServiceImpl"></bean>
+	<!--&lt;!&ndash; 内容分类管理 &ndash;&gt;-->
+	<dubbo:service interface="it.wang.ego.dubbo.service.TbContentCategoryDubboService" ref="tbContentCategoryDubboServiceImpl"></dubbo:service>
+	<bean id="tbContentCategoryDubboServiceImpl" class="it.wang.ego.dubbo.service.impl.TbContentCategoryDubboServiceImpl"></bean>
+
+	<!--&lt;!&ndash; 内容内容管理 &ndash;&gt;-->
+	<dubbo:service interface="it.wang.ego.dubbo.service.TbContentDubboService" ref="tbContentDubboServiceImpl"></dubbo:service>
+	<bean id="tbContentDubboServiceImpl" class="it.wang.ego.dubbo.service.impl.TbContentDubboServiceImpl"></bean>
+
 
 
 	<import resource="../../applicationContext.xml"/>

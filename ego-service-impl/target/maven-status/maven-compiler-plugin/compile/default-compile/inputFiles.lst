@@ -1,5 +1,6 @@
 E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\mapper\TbItemMapper.java
 E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\dubbo\service\impl\TbItemParamDubboServiceImpl.java
+E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\dubbo\service\impl\TbContentCategoryDubboServiceImpl.java
 E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\mapper\TbItemParamItemMapper.java
 E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\mapper\TbItemDescMapper.java
 E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\dubbo\service\impl\TbItemDescDubboServiceImpl.java
@@ -7,6 +8,7 @@ E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\test\Test.java
 E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\mapper\TbItemParamMapper.java
 E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\mapper\TbOrderShippingMapper.java
 E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\mapper\TbOrderMapper.java
+E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\dubbo\service\impl\TbContentDubboServiceImpl.java
 E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\mapper\TbItemCatMapper.java
 E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\dubbo\service\impl\TbItemCatDubboServiceImpl.java
 E:\egoidea\ego-service-impl\src\main\java\it\wang\ego\mapper\TbOrderItemMapper.java
