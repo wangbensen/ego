@@ -28,6 +28,16 @@
             <artifactId>ego-service</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>it.wang.com</groupId>
+            <artifactId>ego-redis</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>it.wang.com</groupId>
+            <artifactId>ego-commons</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- jedis -->
         <dependency>
             <groupId>redis.clients</groupId>

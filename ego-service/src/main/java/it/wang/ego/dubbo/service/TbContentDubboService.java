@@ -3,6 +3,8 @@ package it.wang.ego.dubbo.service;
 import it.ego.commons.pojo.EasyUIDataGrid;
 import it.wang.ego.pojo.TbContent;
 
+import java.util.List;
+
 public interface TbContentDubboService {
 
     /**
@@ -21,4 +23,12 @@ public interface TbContentDubboService {
      * @return
      */
     int insContent(TbContent tbContent)throws Exception;
+
+    /**
+     * 查询 最近的前7个
+     * @param count
+     * @param bool
+     * @return
+     */
+    List<TbContent> selByCount(int count, boolean bool);
 }

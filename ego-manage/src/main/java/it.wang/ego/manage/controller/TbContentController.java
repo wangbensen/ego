@@ -5,6 +5,7 @@ import it.ego.commons.pojo.EgoResult;
 import it.wang.ego.manage.service.TbContentService;
 import it.wang.ego.pojo.TbContent;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 

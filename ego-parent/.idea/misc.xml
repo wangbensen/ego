@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/../ego-manage/pom.xml" />
         <option value="$PROJECT_DIR$/../ego-portal/pom.xml" />
         <option value="$PROJECT_DIR$/../ego-item/pom.xml" />
+        <option value="$PROJECT_DIR$/../ego-redis/pom.xml" />
       </list>
     </option>
   </component>

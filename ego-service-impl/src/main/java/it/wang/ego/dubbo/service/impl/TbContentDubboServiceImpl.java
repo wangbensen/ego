@@ -44,4 +44,20 @@ public class TbContentDubboServiceImpl implements TbContentDubboService {
         }
         return 1;
     }
+
+    @Override
+    public List<TbContent> selByCount(int count, boolean bool) {
+        TbContentExample tbContentExample = new TbContentExample();
+        if (bool){
+            tbContentExample.setOrderByClause("updated desc");
+        }
+        if (count!=0){
+            PageHelper.startPage(1,count);
+            List<TbContent> tbContents = tbContentMapper.selectByExampleWithBLOBs(tbContentExample);
+            PageInfo<TbContent> pageInfo=new PageInfo(tbContents);
+            return pageInfo.getList();
+        }else{
+            return  tbContentMapper.selectByExampleWithBLOBs(tbContentExample);
+        }
+    }
 }

@@ -17,4 +17,5 @@ public interface TbContentService {
             page, int rows);
 
     int save(TbContent tbContent) throws Exception;
+
 }

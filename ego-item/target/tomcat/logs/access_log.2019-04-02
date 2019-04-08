@@ -1,1 +1,0 @@
-127.0.0.1 - - [02/Apr/2019:17:33:16 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 200 46027 http-bio-8081-exec-2 40685
