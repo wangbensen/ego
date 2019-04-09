@@ -2,24 +2,31 @@ package it.wang.ego.manage.service.impl;
 
 
 import it.ego.commons.pojo.EasyUIDataGrid;
+import it.ego.commons.utils.HttpClientUtil;
 import it.ego.commons.utils.IDUtils;
+import it.ego.commons.utils.JsonUtils;
 import it.wang.ego.dubbo.service.TbItemDubboService;
 import it.wang.ego.pojo.TbItem;
 import it.wang.ego.manage.service.TbItemService;
 import it.wang.ego.pojo.TbItemDesc;
 import it.wang.ego.pojo.TbItemParam;
 import it.wang.ego.pojo.TbItemParamItem;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 
 @Service
 public class TbItemServiceImpl implements TbItemService {
 	@Reference
 	private TbItemDubboService tbItemDubboServiceImpl;
+	@Value("${search.url}")
+	private String url;
 
 	@Override
 	public EasyUIDataGrid show(int page, int rows) {
@@ -63,6 +70,18 @@ public class TbItemServiceImpl implements TbItemService {
 		index =
 				tbItemDubboServiceImpl.insTbItemDesc(item, itemDesc,tbItemParamItem);
 		System.out.println("index:" + index);
+		//应为索引库同步成功与否和添加图片成功没有影响  所以开启另一个线程执行
+		final TbItem itemFinal=item;
+		final String descFinal=desc;
+		new Thread(){
+			@Override
+			public void run() {
+				Map<String,Object> map =new HashMap();
+				map.put("item",itemFinal);
+				map.put("desc",descFinal);
+				HttpClientUtil.doPostJson(url, JsonUtils.objectToJson(map));
+			}
+		}.start();
 		return index;
 	}
 

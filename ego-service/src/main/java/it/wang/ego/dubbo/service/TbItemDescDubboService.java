@@ -9,4 +9,11 @@ public interface TbItemDescDubboService {
 	 * @return
 	 */
 	int insDesc(TbItemDesc itemDesc);
+
+	/**
+	 * 根据id 查询商品描述信息
+	 * @param id
+	 * @return
+	 */
+	TbItemDesc selTbItemDescById(Long id);
 }

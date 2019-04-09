@@ -12,6 +12,7 @@
         <module name="ego-pojo" />
         <module name="ego-portal" />
         <module name="ego-redis" />
+        <module name="ego-search" />
         <module name="ego-service" />
         <module name="ego-service-impl" />
       </profile>
@@ -24,6 +25,7 @@
       <module name="ego-pojo" target="1.7" />
       <module name="ego-portal" target="1.6" />
       <module name="ego-redis" target="1.6" />
+      <module name="ego-search" target="1.7" />
       <module name="ego-service" target="1.7" />
       <module name="ego-service-impl" target="1.6" />
       <module name="egocommons" target="1.7" />

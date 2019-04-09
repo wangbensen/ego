@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/../ego-manage" />
     <file type="web" url="file://$PROJECT_DIR$/ego-item" />
     <file type="web" url="file://$PROJECT_DIR$/../ego-portal" />
+    <file type="web" url="file://$PROJECT_DIR$/../ego-search" />
     <file type="web" url="file://$PROJECT_DIR$/../uuu" />
     <file type="web" url="file://$PROJECT_DIR$/../vvvv" />
   </component>
@@ -20,6 +21,7 @@
         <option value="$PROJECT_DIR$/../ego-portal/pom.xml" />
         <option value="$PROJECT_DIR$/../ego-item/pom.xml" />
         <option value="$PROJECT_DIR$/../ego-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/../ego-search/pom.xml" />
       </list>
     </option>
   </component>

@@ -61,6 +61,12 @@ public class TbItemDubboServiceImpl implements TbItemDubboService {
             throw new Exception("新增失败,数据还原");
         }
     }
+    @Override
+    public List<TbItem> selAllByStatus(byte status) {
+        TbItemExample tbItemExample = new TbItemExample();
+        tbItemExample.createCriteria().andStatusEqualTo(status);
+        return tbItemMapper.selectByExample(tbItemExample);
+    }
 
 
 }

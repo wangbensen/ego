@@ -1,0 +1,10 @@
+127.0.0.1 - - [09/Apr/2019:17:13:25 +0800] "POST /solr/add HTTP/1.1" 500 3939 http-bio-8083-exec-1 1753
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:14:56 +0800] "GET / HTTP/1.1" 404 949 http-bio-8083-exec-6 3
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:15:12 +0800] "GET /search.html?q=%E5%A4%9A%E5%AA%92%E4%BD%93%E5%9B%BE%E4%B9%A6 HTTP/1.1" 200 30317 http-bio-8083-exec-8 2048
+127.0.0.1 - - [09/Apr/2019:17:20:27 +0800] "POST /solr/add HTTP/1.1" 500 3939 http-bio-8083-exec-1 1761
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:20:38 +0800] "GET /search.html?q=%E5%A4%9A%E5%AA%92%E4%BD%93%E5%9B%BE%E4%B9%A6 HTTP/1.1" 200 30317 http-bio-8083-exec-5 192
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:20:50 +0800] "GET /search.html?q=%E5%B8%BD%E5%AD%90 HTTP/1.1" 200 19610 http-bio-8083-exec-8 126
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:21:11 +0800] "GET /search.html?q=%E5%A4%B4%E9%A5%B0 HTTP/1.1" 200 19579 http-bio-8083-exec-5 70
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:23:32 +0800] "GET /solr/init HTTP/1.1" 200 6 http-bio-8083-exec-3 528157
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:23:32 +0800] "GET /solr/init HTTP/1.1" 200 6 http-bio-8083-exec-4 518905
+0:0:0:0:0:0:0:1 - - [09/Apr/2019:17:23:33 +0800] "GET /solr/init HTTP/1.1" 200 6 http-bio-8083-exec-2 532013

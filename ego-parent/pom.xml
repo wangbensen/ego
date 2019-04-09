@@ -37,9 +37,24 @@
     <tomcat-version>2.2</tomcat-version>
     <pagehelper-version>4.1.6</pagehelper-version>
     <ftpclient-version>3.3</ftpclient-version>
+    <solrj-version>5.3.1</solrj-version>
+    <httpclient-version>4.4.1</httpclient-version>
   </properties>
   <dependencyManagement>
+
     <dependencies>
+      <!-- httpclient -->
+      <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+        <version>${httpclient-version}</version>
+      </dependency>
+      <!-- solrJ -->
+      <dependency>
+        <groupId>org.apache.solr</groupId>
+        <artifactId>solr-solrj</artifactId>
+        <version>${solrj-version}</version>
+      </dependency>
       <!-- ftpclient -->
       <dependency>
         <groupId>commons-net</groupId>

@@ -18,6 +18,9 @@
           <element id="archive" name="ego-commons-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ego-commons" />
           </element>
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.4.1" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.1" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
           <element id="library" level="project" name="Maven: commons-net:commons-net:3.3" />
           <element id="archive" name="ego-redis-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ego-redis" />
