@@ -42,4 +42,10 @@ public class JedisDaoImpl implements JedisDao{
 		return jedis.get(key);
 	}
 
+	@Override
+	public Long expire(String key, int  second) {
+		//获取redis操作对象
+		Jedis jedis = redisClient.getResource();
+		return jedis.expire(key,second);
+	}
 }

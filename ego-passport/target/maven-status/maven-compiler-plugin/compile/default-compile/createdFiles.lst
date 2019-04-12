@@ -1,0 +1,3 @@
+com\ego\portal\service\TbUserService.class
+com\ego\portal\service\impl\TbUserServieImpl.class
+com\ego\portal\controller\TbUserController.class

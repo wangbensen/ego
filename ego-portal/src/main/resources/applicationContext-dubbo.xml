@@ -10,7 +10,7 @@
 		http://code.alibabatech.com/schema/dubbo 
 		http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 	<!-- 给当前Provider自定义个名字 -->
-	<dubbo:application name="dubbo-manage"/>
+	<dubbo:application name="dubbo-portal"/>
 	<!-- 配置注册中心  -->
 	<dubbo:registry address="47.102.102.102:2181" protocol="zookeeper"></dubbo:registry>
 	<!-- 配置注解扫描 -->

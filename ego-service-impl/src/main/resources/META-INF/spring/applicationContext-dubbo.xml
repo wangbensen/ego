@@ -36,6 +36,12 @@
 	<dubbo:service interface="it.wang.ego.dubbo.service.TbContentDubboService" ref="tbContentDubboServiceImpl"></dubbo:service>
 	<bean id="tbContentDubboServiceImpl" class="it.wang.ego.dubbo.service.impl.TbContentDubboServiceImpl"></bean>
 
+	<!--&lt;!&ndash; 商品规格管理 &ndash;&gt;-->
+	<dubbo:service interface="it.wang.ego.dubbo.service.TbItemParamItemDubboService" ref="tbItemParamItemDubboServiceImpl"></dubbo:service>
+	<bean id="tbItemParamItemDubboServiceImpl" class="it.wang.ego.dubbo.service.impl.TbItemParamItemDubboServiceImpl"></bean>
+	<!--&lt;!&ndash; 用户登录 &ndash;&gt;-->
+	<dubbo:service interface="it.wang.ego.dubbo.service.TbUserDubboService" ref="tbUserDubboServiceImpl" timeout="1200000"></dubbo:service>
+	<bean id="tbUserDubboServiceImpl" class="it.wang.ego.dubbo.service.impl.TbUserDubboServiceImpl"></bean>
 
 
 	<import resource="../../applicationContext.xml"/>

@@ -39,10 +39,16 @@
     <ftpclient-version>3.3</ftpclient-version>
     <solrj-version>5.3.1</solrj-version>
     <httpclient-version>4.4.1</httpclient-version>
+    <myredis-version>1.0-SNAPSHOT</myredis-version>
   </properties>
   <dependencyManagement>
 
     <dependencies>
+      <dependency>
+        <groupId>it.wang.com</groupId>
+        <artifactId>ego-redis</artifactId>
+        <version>${myredis-version}</version>
+      </dependency>
       <!-- httpclient -->
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>

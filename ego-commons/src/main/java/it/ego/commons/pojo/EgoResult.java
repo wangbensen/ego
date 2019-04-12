@@ -3,7 +3,15 @@ package it.ego.commons.pojo;
 public class EgoResult {
 	private int status;
 	private Object data;
+	private  String msg;
 
+	public String getMsg() {
+		return msg;
+	}
+
+	public void setMsg(String msg) {
+		this.msg = msg;
+	}
 
 	public int getStatus() {
 		return status;

@@ -30,6 +30,18 @@ public interface TbItemDubboService {
 	int insTbItemDesc(TbItem tbItem, TbItemDesc desc, TbItemParamItem tbItemParamItem)
 			throws Exception;
 
+	/**
+	 * 查询所有的商品信息status=1的
+	 * @param status
+	 * @return
+	 */
 	List<TbItem> selAllByStatus(byte status );
+
+	/**
+	 * 根据商品id 查询商品
+	 * @param id
+	 * @return
+	 */
+	TbItem selById(long id);
 
 }

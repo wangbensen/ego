@@ -1,8 +1,8 @@
 package com.ego.search.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.ego.search.pojo.TbItemChild;
 import com.ego.search.service.TbItemService;
+import it.ego.commons.pojo.TbItemChild;
 import it.wang.ego.dubbo.service.TbItemCatDubboService;
 import it.wang.ego.dubbo.service.TbItemDescDubboService;
 import it.wang.ego.dubbo.service.TbItemDubboService;
@@ -50,6 +50,10 @@ public class TbItemServiceImpl implements TbItemService {
     public void init() throws IOException, SolrServerException {
         //   SolrClient solrClient=new HttpSolrClient("http://192.168.249.131:8080/solr/");
         // SolrClient solrClient = new HttpSolrClient("http://47.102.102.102:8088/solr/");
+        //先删除全部的索引库信息
+        solrClient.deleteByQuery("*:*");
+        solrClient.commit();
+
         //1. 首先查询所有的商品信息
         List<TbItem> tbItems = tbItemDubboServiceImpl.selAllByStatus((byte) 1);
         for (TbItem tbItem : tbItems) {
@@ -65,6 +69,7 @@ public class TbItemServiceImpl implements TbItemService {
             doc.addField("item_image", tbItem.getImage());
             doc.addField("item_category_name", tbItemCat.getName());
             doc.addField("item_desc", tbItemDesc.getItemDesc());
+            doc.setField("item_update", tbItem.getUpdated());
             solrClient.add(doc);
         }
         solrClient.commit();
@@ -79,6 +84,7 @@ public class TbItemServiceImpl implements TbItemService {
         params.setRows(rows);
         //设置要查询的条件 item_keywords是组合字段
         params.setQuery("item_keywords:" + query);
+        params.setSort("item_update", SolrQuery.ORDER.desc);
         //开启高亮
         params.setHighlight(true);
         //设置高亮的字段

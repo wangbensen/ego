@@ -1,6 +1,7 @@
 package it.wang.ego.manage.service.impl;
 
 
+import com.ego.redis.dao.JedisDao;
 import it.ego.commons.pojo.EasyUIDataGrid;
 import it.ego.commons.utils.HttpClientUtil;
 import it.ego.commons.utils.IDUtils;
@@ -11,6 +12,7 @@ import it.wang.ego.manage.service.TbItemService;
 import it.wang.ego.pojo.TbItemDesc;
 import it.wang.ego.pojo.TbItemParam;
 import it.wang.ego.pojo.TbItemParamItem;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -27,6 +29,10 @@ public class TbItemServiceImpl implements TbItemService {
 	private TbItemDubboService tbItemDubboServiceImpl;
 	@Value("${search.url}")
 	private String url;
+	@Value("${redis.item.key}")
+	private  String itemKey;
+	@Autowired
+	private JedisDao jedisDaoImpl;
 
 	@Override
 	public EasyUIDataGrid show(int page, int rows) {
@@ -41,6 +47,11 @@ public class TbItemServiceImpl implements TbItemService {
 			item.setId(Long.parseLong(id));
 			item.setStatus(status);
 			index +=tbItemDubboServiceImpl.updItemStatus(item);
+			//商品修改上架下架 删除redis中对应的数据
+			if(status==2||status==3){
+				jedisDaoImpl.del(itemKey+id);
+			}
+
 		}
 		if(index==idsStr.length){
 			return 1;

@@ -17,6 +17,11 @@
 
     <name>ego-manage Maven Webapp</name>
     <dependencies>
+        <!-- 引入模块 -->
+        <dependency>
+            <groupId>it.wang.com</groupId>
+            <artifactId>ego-redis</artifactId>
+        </dependency>
         <!-- 分页插件 -->
         <dependency>
             <groupId>com.github.pagehelper</groupId>
