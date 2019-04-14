@@ -16,6 +16,11 @@
     <module>../ego-service-impl</module>
     <module>../ego-portal</module>
     <module>../ego-item</module>
+    <module>../ego-cart</module>
+    <module>../ego-manage</module>
+    <module>../ego-passport</module>
+    <module>../ego-redis</module>
+    <module>../ego-search</module>
   </modules>
 
   <name>ego-parent</name>

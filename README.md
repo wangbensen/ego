@@ -10,3 +10,4 @@ ego-manager  后台管理商品模块(web)
 ego-redis  redis模块  （需要启动reids）
 ego-portal  门户模块(web)
 ego-search  搜索模块 （需要启动solr）(web)
+ego-passpost 登录系统（web）
