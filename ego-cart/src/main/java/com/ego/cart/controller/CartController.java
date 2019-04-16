@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -71,6 +72,7 @@ private CartService cartServiceImpl;
     @RequestMapping("cart/delete/{id}.action")
     @ResponseBody
     public EgoResult delete(HttpServletRequest request,@PathVariable Long id){
+
      return    cartServiceImpl.delete(request,id);
     }
 }

@@ -4,27 +4,27 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class TbItem implements Serializable{
-    private Long id;
+    public Long id;
 
-    private String title;
+    public String title;
 
-    private String sellPoint;
+    public String sellPoint;
 
-    private Long price;
+    public Long price;
 
-    private Integer num;
+    public Integer num;
 
-    private String barcode;
+    public String barcode;
 
-    private String image;
+    public String image;
 
-    private Long cid;
+    public Long cid;
 
     private Byte status;
 
-    private Date created;
+    public Date created;
 
-    private Date updated;
+    public Date updated;
 
     public Long getId() {
         return id;

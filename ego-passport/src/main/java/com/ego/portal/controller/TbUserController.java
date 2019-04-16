@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Date;
 import java.util.UUID;
 
 /**
@@ -97,7 +98,22 @@ public class TbUserController {
                 return  mjv;
             }
         return  egoResult;
+    }
 
+   @RequestMapping("user/showRegister")
+   public String showRegister() {
+       return "register";
+   }
 
+   @RequestMapping("user/check/{usernameOrPassword}/{type}")
+   @ResponseBody
+    public EgoResult check(@PathVariable String usernameOrPassword,@PathVariable int type ){
+      return tbUserServiceImpl.checkUserNameOrPhoneNum(usernameOrPassword,type);
+   }
+    @RequestMapping("user/register")
+    @ResponseBody
+    public EgoResult showRegister(TbUser tbUser, HttpServletRequest request, HttpServletResponse response){
+
+        return tbUserServiceImpl.regist(tbUser, request, response);
     }
 }

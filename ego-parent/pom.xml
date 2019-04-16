@@ -21,6 +21,7 @@
     <module>../ego-passport</module>
     <module>../ego-redis</module>
     <module>../ego-search</module>
+    <module>../ego-order</module>
   </modules>
 
   <name>ego-parent</name>

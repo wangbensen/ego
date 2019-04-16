@@ -18,34 +18,45 @@ public class JedisDaoImpl implements JedisDao{
 	public Boolean exists(String key) {
 		//获取redis操作对象
 		Jedis jedis = redisClient.getResource();
-		return jedis.exists(key);
+		Boolean exists = jedis.exists(key);
+		jedis.close();
+		return exists;
 	}
 
 	@Override
 	public Long del(String key){
 	//获取redis操作对象
 	Jedis jedis = redisClient.getResource();
-		return jedis.del(key);
+		Long del = jedis.del(key);
+		jedis.close();
+		return del;
 	}
 
 	@Override
 	public String set(String key, String value){
 	//获取redis操作对象
 	Jedis jedis = redisClient.getResource();
-		return jedis.set(key, value);
+		String set = jedis.set(key, value);
+		jedis.close();
+		return set;
 	}
 
 	@Override
 	public String get(String key) {
 		//获取redis操作对象
 		Jedis jedis = redisClient.getResource();
-		return jedis.get(key);
+		String s = jedis.get(key);
+		jedis.close();
+		return s;
 	}
 
 	@Override
 	public Long expire(String key, int  second) {
 		//获取redis操作对象
 		Jedis jedis = redisClient.getResource();
-		return jedis.expire(key,second);
+		Long expire = jedis.expire(key, second);
+		jedis.close();
+		return expire;
 	}
+
 }

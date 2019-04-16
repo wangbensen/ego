@@ -9,4 +9,18 @@ public interface TbUserDubboService {
      * @return
      */
     public TbUser login(TbUser tbUser);
+
+    /**
+     * 用户注册
+     * @param tbUser
+     * @return
+     */
+    public int  regist(TbUser tbUser);
+
+    /**
+     * 检查用户名或者密码是否正确
+     * @param tbUser
+     * @return
+     */
+    public int  checkUserNameOrPassword(String userNameOrPassword ,int type);
 }

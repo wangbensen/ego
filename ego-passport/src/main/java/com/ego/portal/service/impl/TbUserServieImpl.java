@@ -5,6 +5,7 @@ import com.ego.portal.service.TbUserService;
 import com.ego.redis.dao.JedisDao;
 import it.ego.commons.pojo.EgoResult;
 import it.ego.commons.utils.CookieUtils;
+import it.ego.commons.utils.IDUtils;
 import it.ego.commons.utils.JsonUtils;
 import it.wang.ego.dubbo.service.TbUserDubboService;
 import it.wang.ego.pojo.TbUser;
@@ -15,6 +16,7 @@ import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Date;
 import java.util.UUID;
 
 /**
@@ -75,6 +77,35 @@ public class TbUserServieImpl implements TbUserService {
         EgoResult egoResult=new EgoResult();
         egoResult.setStatus(200);
         egoResult.setMsg("OK");
+        return egoResult;
+    }
+
+    @Override
+    public EgoResult regist(TbUser tbUser, HttpServletRequest request, HttpServletResponse response) {
+        Date date = new Date();
+        tbUser.setCreated(date);
+        tbUser.setUpdated(date);
+        tbUser.setId(IDUtils.genItemId());
+        int regist = tbUserDubboServiceImpl.regist(tbUser);
+        EgoResult egoResult = new EgoResult();
+            if(regist==1) {
+                egoResult.setStatus(200);
+                egoResult.setMsg("登录成功");
+                egoResult.setData(tbUser.getId());
+                return egoResult;
+            }
+        egoResult.setStatus(500);
+        egoResult.setMsg("用户名或者密码错误");
+        return egoResult;
+    }
+
+    @Override
+    public EgoResult checkUserNameOrPhoneNum(String usernameOrPassword, int type) {
+        int i = tbUserDubboServiceImpl.checkUserNameOrPassword(usernameOrPassword, type);
+        EgoResult egoResult = new EgoResult();
+        if(i==1){
+            egoResult.setData(true);
+        }
         return egoResult;
     }
 }

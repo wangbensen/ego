@@ -43,7 +43,11 @@
 	<dubbo:service interface="it.wang.ego.dubbo.service.TbUserDubboService" ref="tbUserDubboServiceImpl" timeout="1200000"></dubbo:service>
 	<bean id="tbUserDubboServiceImpl" class="it.wang.ego.dubbo.service.impl.TbUserDubboServiceImpl"></bean>
 
+	<!--&lt;!&ndash; 创建订单 &ndash;&gt;-->
+	<dubbo:service interface="it.wang.ego.dubbo.service.TbOrderDubboService" ref="tbOrderDubboServiceImpl" timeout="1200000"></dubbo:service>
+	<bean id="tbOrderDubboServiceImpl" class="it.wang.ego.dubbo.service.impl.TbOrderDubboServiceImpl"></bean>
 
 	<import resource="../../applicationContext.xml"/>
+
 </beans>
 

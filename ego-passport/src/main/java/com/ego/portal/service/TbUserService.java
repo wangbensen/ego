@@ -27,9 +27,26 @@ public interface TbUserService {
     public EgoResult getUserInfoByToken(String token, HttpServletRequest request, HttpServletResponse response);
 
     /**
-     * 推出当前用户
+     * 退出当前用户
      * @param token
      * @param callback
      */
     EgoResult exit( String token, HttpServletRequest request, HttpServletResponse response);
+
+    /**
+     * 用户注册
+     * @param tbUser
+     * @param request
+     * @param response
+     * @return
+     */
+    EgoResult regist(TbUser tbUser, HttpServletRequest request, HttpServletResponse response);
+
+    /**
+     * 检查用户名或者手机号是否存在
+     * @param usernameOrPassword
+     * @param type
+     * @return
+     */
+    EgoResult checkUserNameOrPhoneNum(String usernameOrPassword, int type);
 }

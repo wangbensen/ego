@@ -56,7 +56,7 @@ public class TbItemController {
      * @return
      */
     @RequestMapping("search.html")
-    public String search(Model model, @RequestParam(defaultValue = "1") int page, @RequestParam(defaultValue = "12") int rows, String q) {
+    public String search(Model model, @RequestParam(defaultValue = "1") int page, @RequestParam(defaultValue = "12") int rows,  @RequestParam(defaultValue = "*")String q) {
         //应为是get 请求 所以 q 会乱码 本地需要从新编码
         try {
             q = new String(q.getBytes("ISO-8859-1"), "utf-8");
